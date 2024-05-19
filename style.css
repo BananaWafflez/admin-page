@@ -4,10 +4,19 @@ body{
     height: 100vh;
     font-family: "Roboto";
 }
+.menubar{
+    background: lightskyblue;
+}
 .member{
     padding:12px;
 }
 #manage{
     margin-bottom: 28px;
     margin-top: 24px;
+}
+img{
+    height: 18px;
+    width:18px;
+    padding-right: 12px;
+    vertical-align: top;
 }
