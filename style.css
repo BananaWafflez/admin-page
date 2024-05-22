@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
+    display:flex;
+    flex-direction:row;
     height: 100vh;
     font-family: "Roboto";
+    margin:0;
+}
+h3{
+    margin:0;
+    padding:20px;
 }
 .menubar{
     background: lightskyblue;
+    margin:0;
+    width:250px;
+    
 }
 .member{
     padding:12px;
@@ -19,4 +29,20 @@ img{
     width:18px;
     padding-right: 12px;
     vertical-align: top;
+}
+.topbar{
+    
+    color: white;
+    padding:20px;
+    min-width:100vh;
+    height: 100px;
+    
+}
+input[type=text]{
+    border-radius: 20px;
+    width: 350px;
+    
+    border-style:none;
+    background-color:rgb(216, 230, 230);
+    border-width:thin;
 }
