@@ -6,16 +6,22 @@ body{
     height: 100vh;
     font-family: "Roboto";
     margin:0;
+    
+    
 }
-h3{
+h3, h4, h5{
     margin:0;
     padding:20px;
+    color:black;
 }
 .menubar{
     background: lightskyblue;
     margin:0;
-    width:250px;
+    width:225px;
     
+}
+.main{
+    min-width: 75%;
 }
 .member{
     padding:12px;
@@ -34,15 +40,44 @@ img{
     
     color: white;
     padding:20px;
-    min-width:100vh;
     height: 100px;
     
 }
 input[type=text]{
     border-radius: 20px;
-    width: 350px;
-    
+    width: 300px;
+    padding:2px;
+    font-size:8pt;
     border-style:none;
     background-color:rgb(216, 230, 230);
     border-width:thin;
+}
+.searchbar{
+    display:flex;
+    min-width: 100%;
+    justify-content: space-between;
+    row-gap:20px;
+}
+#name{
+    padding-top:10px;
+}
+#greetings{
+    padding-bottom:0px;
+}
+#profilepicture{
+    border-radius: 20px;;
+    padding:0;
+}
+.name{
+    color:black;
+    font-size:8pt;
+    font-weight:bold;
+    padding-left:12px;
+    
+}
+#profile{
+    display:flex;
+    flex-flow:row;
+    align-items: center;
+    min-width: 100px;
 }
