@@ -21,7 +21,7 @@ h3, h4, h5{
     
 }
 .main{
-    min-width: 75%;
+    min-width: 80vw;
 }
 .member{
     padding:12px;
@@ -37,9 +37,10 @@ img{
     vertical-align: top;
 }
 .topbar{
-    
+    box-shadow:4px 1px 6px rgb(154, 156, 156);
     color: white;
     padding:20px;
+    padding-top:5px;
     height: 100px;
     
 }
@@ -54,7 +55,8 @@ input[type=text]{
 }
 .searchbar{
     display:flex;
-    min-width: 100%;
+   
+    padding-bottom:4px;
     justify-content: space-between;
     row-gap:20px;
 }
@@ -65,7 +67,7 @@ input[type=text]{
     padding-bottom:0px;
 }
 #profilepicture{
-    border-radius: 20px;;
+    border-radius: 20px;
     padding:0;
 }
 .name{
@@ -75,9 +77,15 @@ input[type=text]{
     padding-left:12px;
     
 }
-#profile{
+#profile, .account{
     display:flex;
     flex-flow:row;
     align-items: center;
     min-width: 100px;
+}
+#bigpicture{
+    width:75px;
+    height:75px;
+    border-radius: 40px;
+    padding:0;
 }
