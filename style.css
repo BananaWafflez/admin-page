@@ -146,3 +146,10 @@ input[type=text]{
     row-gap:24px;
     
 }
+.filler{
+    min-height:25px;
+}
+.gridelement[class*=announcement], .gridelement[class*=trending]{
+    padding:16px;
+    border-style: none;
+}
