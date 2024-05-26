@@ -142,7 +142,7 @@ input[type=text]{
 .box2{
     display:grid;
     grid-template-columns: 250px;
-    grid-template-rows: minmax(200px, 1fr) minmax(200px, 1fr) ;
+    grid-template-rows: minmax(150px, 1fr) minmax(150px, 1fr) ;
     row-gap:24px;
     
 }
@@ -152,4 +152,7 @@ input[type=text]{
 .gridelement[class*=announcement], .gridelement[class*=trending]{
     padding:16px;
     border-style: none;
+}
+.user{
+    min-height:24px;
 }
